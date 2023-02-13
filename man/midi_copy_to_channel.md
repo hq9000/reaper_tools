@@ -8,7 +8,7 @@ I wrote this little plugin to make it easier to create multilayered sounds with 
 
 ## Installation
 
-Take the file `js/midi_copy_to_channel` and somehow put it to a directory where your Reaper expects to find all JS plugins. Restart Reaper, then insert this plugin as you would insert any other plugin:
+Take [this file](https://raw.githubusercontent.com/hq9000/reaper_tools/master/js/midi_copy_to_channels.js) and somehow put it to a directory where your Reaper expects to find all JS plugins. Restart Reaper, then insert this plugin as you would insert any other plugin:
 
 ![image](resources/midi_copy_to_channels_adding.png)
 
