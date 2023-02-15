@@ -1,8 +1,6 @@
 desc: MIDI Copy to channels (useful for layering with multitembral synths)
 //tags: MIDI processing
 
-// this plugin is usable for 
-
 slider1:0<0,1,1{No,Yes ######}>Copy to ch. #1
 slider2:0<0,1,1{No,Yes ######}>Copy to ch. #2
 slider3:0<0,1,1{No,Yes ######}>Copy to ch. #3
@@ -39,8 +37,6 @@ function send_copy_of_voice_message(offset, msg1, msg2, msg3, target_channel) (
 
 while (midirecv(offset, msg1, msg2, msg3)) (
   
-  num_yes_no_sliders = 3;
-   
   is_voice_message(msg1) ? (
     slider1 ? send_copy_of_voice_message(offset, msg1, msg2, msg3, 1);
     slider2 ? send_copy_of_voice_message(offset, msg1, msg2, msg3, 2);
