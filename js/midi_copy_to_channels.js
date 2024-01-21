@@ -1,4 +1,4 @@
-desc: MIDI Copy to channels (useful for layering with multitembral synths)
+desc: MIDI Copy to channels (useful for layering with multitimbral synths)
 //tags: MIDI processing
 
 slider1:0<0,1,1{No,Yes ######}>Copy to ch. #1
